@@ -1,4 +1,4 @@
-package com.organization.mvcproject.service;
+package com.organization.mvcproject.MGL_Task1.service;
 
 import java.util.List;
 
@@ -9,9 +9,5 @@ public interface GameService {
 	List<Game> retrieveAllGames();
 
 	Game saveGame(Game game);
-	
-	Boolean deleteGame(Long gameId);
-	
-	Game updateGame(Game game);
-	
+
 }
